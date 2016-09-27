@@ -121,7 +121,7 @@
         </else-if>
         <else-if type="webpage">
           <group delimiter=". ">
-            <group delimiter="; ">
+            <group delimiter=";">
               <text variable="title"/>
               <date variable="issued" form="text" date-parts="year"/>
             </group>
@@ -139,7 +139,7 @@
                 <text variable="title"/>
                 <text variable="container-title" form="short" text-case="title" strip-periods="true"/>
               </group>
-              <group delimiter="; ">
+              <group delimiter=";">
                 <text macro="year-date"/>
                 <text variable="volume"/>
               </group>
